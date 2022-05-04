@@ -1,0 +1,23 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Geocoder styles
+@import 'geocoder';
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('/assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+}
+
+.glass-card {
+    background: rgba(180, 180, 180, 0.1);
+    backdrop-filter: blur(4px);
+}
